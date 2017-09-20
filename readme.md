@@ -152,7 +152,7 @@ O `request.setAttribute` injeta o objeto tarefas no JSP. Ao retornar a string "i
 
 Por último temos o `@RestController`. Muito similar ao controller porém focado em APIs REST, ou seja, JSON. O output dos  RestController são transformados em JSON.
 
-```
+```java
 package listaTarefa.tarefa;
 
 import java.util.Date;
